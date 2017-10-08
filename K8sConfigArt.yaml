@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+ name: hello-world-jenkins-pipeline
+ #namespace: production
+spec:
+ replicas: 2
+ template:
+  metadata:
+   labels:
+    app: hello-world
+  spec:
+   containers:
+     - name: hello-world
+       image: nlhnewsaas-docker.jfrog.io/hello-world-snapshot:__Build.BuildNumber__
+       ports:
+         - containerPort: 8080
+   imagePullSecrets:
+     - name: regsecret

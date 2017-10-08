@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+ name: javasample
+spec:
+ replicas: 2
+ template:
+  metadata:
+   labels:
+    app: sampleapi
+  spec:
+   containers:
+     - name: sampleapi
+       image: jenkinspluginacr.azurecr.io/javasample:latest
+       ports:
+         - containerPort: 8080
+   imagePullSecrets:
+     - name: regsecret

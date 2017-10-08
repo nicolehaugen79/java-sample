@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: java-sample-service
+spec:
+  selector:
+    app: java-sample
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
