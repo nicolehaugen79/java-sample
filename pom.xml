@@ -32,7 +32,7 @@
     <artifactId>appInsights</artifactId>
     <version>1.0</version>
     <scope>system</scope>
-    <systemPath>${basedir}/WEB-INF/ApplicationInsights.xml</systemPath>
+    <systemPath>${basedir}/ApplicationInsights.xml</systemPath>
 </dependency>
   </dependencies>
   <build>
