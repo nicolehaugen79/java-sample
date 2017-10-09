@@ -27,6 +27,13 @@
         <!-- or applicationinsights-core for bare API -->
         <version>[1.0,)</version>
       </dependency>
+    <dependency>
+    <groupId>appInsights</groupId>
+    <artifactId>appInsights</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${basedir}/WEB-INF/ApplicationInsights.xml</systemPath>
+</dependency>
   </dependencies>
   <build>
     <finalName>helloworld</finalName>
