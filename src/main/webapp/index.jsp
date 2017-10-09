@@ -9,7 +9,7 @@
   <title>Samples Hello World</title>
 </head>
 <body>
-  <H1>Hello Azure!</H1>
+  <H1>Hello Walmart!</H1>
    Current time is: <%= new Date() %>
 </body>
 </html>
