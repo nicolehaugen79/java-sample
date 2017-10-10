@@ -36,7 +36,6 @@
                 <includes>
                     <include>**/*.xml</include>
                 </includes>
-              <targetPath>../lib</targetPath> 
             </resource>
         </resources>
     <finalName>helloworld</finalName>
