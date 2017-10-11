@@ -13,15 +13,5 @@
        <filter-name>ApplicationInsightsWebFilter</filter-name>
        <url-pattern>/*</url-pattern>
     </filter-mapping>
-  <display-name>Hello World Walmart!!!</display-name>
-
-    <servlet>
-        <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>examples.Hello</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
+  <display-name>Hello World JB Walmart!!!</display-name>
 </web-app>
