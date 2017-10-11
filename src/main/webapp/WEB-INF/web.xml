@@ -13,5 +13,5 @@
        <filter-name>ApplicationInsightsWebFilter</filter-name>
        <url-pattern>/*</url-pattern>
     </filter-mapping>
-  <display-name>Hello World JB Hunt!!!</display-name>
+  <display-name>Hello World JB Walmart!!!</display-name>
 </web-app>
