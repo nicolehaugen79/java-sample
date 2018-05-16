@@ -40,7 +40,7 @@
     ],
     "inline_shebang": "/bin/sh -x",
     "type": "shell"
-  }
+  },
   {
     "type": "file",
     "source": ./VMScaleSetCICD/target/helloworld.war",
