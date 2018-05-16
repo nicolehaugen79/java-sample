@@ -43,7 +43,7 @@
   },
   {
     "type": "file",
-    "source": "{{`source_package`}}/target/helloworld.war",
+    "source": "/var/lib/jenkins/workspace/VMScaleSetCICD/target/helloworld.war",
     "destination": "/tmp/helloworld.war"
   }
 ]
