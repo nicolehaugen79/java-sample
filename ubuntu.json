@@ -43,7 +43,7 @@
   },
   {
     "type": "file",
-    "source": ./VMScaleSetCICD/target/helloworld.war",
+    "source": "./VMScaleSetCICD/target/helloworld.war",
     "destination": "/tmp/helloworld.war"
   }
 ]
