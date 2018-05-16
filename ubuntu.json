@@ -44,7 +44,8 @@
   {
     "type": "file",
     "source": "/var/lib/jenkins/workspace/VMScaleSetCICD/target/helloworld.war",
-    "destination": "/tmp/helloworld.war"
+    "destination": "/tmp/helloworld.war",
+    "direction" : "download"
   }
 ]
 }
