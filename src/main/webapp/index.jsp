@@ -9,7 +9,7 @@
   <title>Samples Hello World</title>
 </head>
 <body>
-  <H1>Hello Tata!</H1>
+  <H1>Hello Staples!</H1>
    Current time is: <%= new Date() %>
 </body>
 </html>
