@@ -43,7 +43,7 @@
   },
   {
     "type": "file",
-    "source": "./target/helloworld.war",
+    "source": "{{`source_package`}}/target/helloworld.war",
     "destination": "/tmp/helloworld.war"
   }
 ]
