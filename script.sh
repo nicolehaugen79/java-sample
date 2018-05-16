@@ -8,6 +8,7 @@ apt-get -y install openjdk-8-jdk
 
 # https://devops.profitbricks.com/tutorials/how-to-install-and-configure-tomcat-8-on-ubuntu-1604/
 
+echo 'create tomcat'
 # Create a tomcat group
 groupadd tomcat
 # Create a new tomcat user and make this user member of the tomcat group with home directory /opt/tomcat
@@ -18,11 +19,13 @@ wget https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.24/bin/apache-tomcat-8
 tar -xzvf apache-tomcat-8.5.24.tar.gz
 mv apache-tomcat-8.5.24 /opt/tomcat
 
+echo 'give permission'
 # Give proper permission to the tomcat user to access to the Tomcat installation.
 chgrp -R tomcat /opt/tomcat
 chown -R tomcat /opt/tomcat
 chmod -R 755 /opt/tomcat
 
+echo 'copy *.war'
 # Deploy code to ROOT : TODO
     cp -r /tmp/helloworld.war /opt/tomcat/webapps/helloworld.war
 
