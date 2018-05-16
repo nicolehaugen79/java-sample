@@ -36,8 +36,7 @@
    {
     "type": "file",
     "source": "/var/lib/jenkins/workspace/VMScaleSetCICD/target/helloworld.war",
-    "destination": "/tmp/helloworld.war",
-    "direction" : "download"
+    "destination": "/tmp/helloworld.war"
     },
     {
     "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
